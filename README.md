@@ -6,7 +6,7 @@ RespondeAí Bootcamp Project to build a layout imitating IFood Mobile Layout
 ![alt text](/public/images/app_screenshot.png "Title")
 
 You can check it out at:
-www.bootcamp-03-foodcamp.herokuapp.com
+- https://bootcamp-03-foodcamp.herokuapp.com/
 ## Technologies used
 - HTML
 - CSS
