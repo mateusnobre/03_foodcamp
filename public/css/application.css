@@ -74,7 +74,7 @@ body {
 }
 
 .product:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .selected_main_course{
@@ -105,6 +105,13 @@ body {
     margin: 18px 14px 8px 14px;
 }
 
+.product_image img{
+    object-fit: cover;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
 .product_title{
     font-size: 16px;
     font-weight: 700;
@@ -129,7 +136,9 @@ body {
 }
 
 .confirm_box{
-    display: flex;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -137,7 +146,10 @@ body {
     height: 353px;
     background: #50D074;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 9px
+    border-radius: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .confirm_box_title{
@@ -151,6 +163,7 @@ body {
 
 .confirm_box_item{
     display: flex;
+    width: 313px;
     justify-content: space-between;
     margin-bottom: 13px;
 }
@@ -163,6 +176,9 @@ body {
 }
 
 .confirm_box_total{
+    display: flex;
+    width: 313px;
+    justify-content: space-between;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
@@ -175,7 +191,7 @@ body {
 .confirm_box_cancel{
     height: 52px;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 52px;
     font-weight: 700;
     align-items: center;
     text-align: center;
@@ -184,14 +200,16 @@ body {
 
 .confirm_box_button{
     height: 52px;
+    width: 333px;
     background: white;
     color: #50D074;
     font-weight: 700;
     font-size: 22px;
     text-align: center;
     align-items: center;
-    line-height: 26px;
+    line-height: 52px;
     letter-spacing: 0.018em;
+    border-radius: 100px;
 }
 
 .bottom {
